@@ -13,8 +13,7 @@ KEYWORDS = ["python", "gofile", "api", "gofileio", "gofile.io"]
 DEPENDENCIES = ["requests"]
 
 DESCRIPTION = "A python library for communicating with the Gofile API."
-with open("CHANGELOG.txt", "r") as changelog, open("README.txt", "r") as readme:
-    LONG_DESCRIPTION = """Description
+LONG_DESCRIPTION = """Description
 -------------------
 A python library for communicating with the Gofile API.
 
