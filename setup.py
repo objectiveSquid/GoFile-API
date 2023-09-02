@@ -13,21 +13,41 @@ KEYWORDS = ["python", "gofile", "api", "gofileio", "gofile.io"]
 DEPENDENCIES = ["requests"]
 
 DESCRIPTION = "A python library for communicating with the Gofile API."
-LONG_DESCRIPTION = """--------------------GoFile API--------------------
-
-Description:
-
+with open("CHANGELOG.txt", "r") as changelog, open("README.txt", "r") as readme:
+    LONG_DESCRIPTION = """Description
+-------------------
 A python library for communicating with the Gofile API.
 
-Features:
-
+Features
+-------------------
 Get an available server.
 Upload a file, to a directory, or to the root folder.
 Create a guest account.
 Get contents of a folder.
 Create a folder.
 Get the account information.
-Set option for a content id."""
+Set option for a content id.
+
+Changelog
+==========
+
+0.0.1 (02. of september 2023)
+-------------------
+First upload
+
+0.0.2 (02. of september 2023)
+-------------------
+Added more documentation
+
+0.0.3 (02. of september 2023)
+-------------------
+Fixed long description on PyPi
+
+0.0.4 (02. of september 2023)
+-------------------
+Fixed long description on PyPi, again
+Added documentation for all functions, and improved existing documentation
+Fixed GoFileSession.upload_file"""
 
 setup(
     name="gofile-api",

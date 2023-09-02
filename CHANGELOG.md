@@ -10,6 +10,6 @@ Added more documentation
 Fixed long description on PyPi
 
 ## 0.0.4
-Fixed long description on PyPi, again
-Added documentation for all functions, and improved existing documentation
+Fixed long description on PyPi, again <br>
+Added documentation for all functions, and improved existing documentation <br>
 Fixed GoFileSession.upload_file
