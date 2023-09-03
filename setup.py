@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 CLASSIFIERS = [
-    "Development Status :: 5 - Production/Stable",
+    "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3 :: Only",
@@ -13,46 +13,15 @@ KEYWORDS = ["python", "gofile", "api", "gofileio", "gofile.io"]
 DEPENDENCIES = ["requests"]
 
 DESCRIPTION = "A python library for communicating with the Gofile API."
-LONG_DESCRIPTION = """Description
--------------------
-A python library for communicating with the Gofile API.
-
-Features
--------------------
-Get an available server.
-Upload a file, to a directory, or to the root folder.
-Create a guest account.
-Get contents of a folder.
-Create a folder.
-Get the account information.
-Set option for a content id.
-
-Changelog
-==========
-
-0.0.1 (02. of september 2023)
--------------------
-First upload
-
-0.0.2 (02. of september 2023)
--------------------
-Added more documentation
-
-0.0.3 (02. of september 2023)
--------------------
-Fixed long description on PyPi
-
-0.0.4 (02. of september 2023)
--------------------
-Fixed long description on PyPi, again
-Added documentation for all functions, and improved existing documentation
-Fixed GoFileSession.upload_file"""
+with open("README.md", "r") as readme_file, open("CHANGELOG.md", "r") as changelog_file:
+    LONG_DESCRIPTION = f"{readme_file.read()}\n\n{changelog_file.read()}"
 
 setup(
     name="gofile-api",
-    version="0.0.4",
+    version="0.0.7",
     description="A python library for communicating with the Gofile API.",
     long_description=LONG_DESCRIPTION,
+    long_description_content_type="text/markdown",
     url="https://github.com/objectiveSquid/GoFile-API",
     author="Magnus Zahle",
     author_email="objectivesquid@outlook.com",

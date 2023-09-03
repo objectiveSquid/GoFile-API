@@ -1,1 +1,2 @@
-global-include *.md *.py *.txt
+global-include *.md *.py
+include LICENSE

@@ -9,4 +9,4 @@ Create a guest account. <br>
 Get contents of a folder. <br>
 Create a folder. <br>
 Get the account information. <br>
-Set option for a content id. <br>
+Set option for a content id.
