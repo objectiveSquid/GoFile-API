@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 CLASSIFIERS = [
-    "Development Status :: 3 - Alpha",
+    "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3 :: Only",
@@ -18,7 +18,7 @@ with open("README.md", "r") as readme_file, open("CHANGELOG.md", "r") as changel
 
 setup(
     name="gofile-api",
-    version="0.0.7",
+    version="0.1.0",
     description="A python library for communicating with the Gofile API.",
     long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
