@@ -23,7 +23,9 @@ Last try at making the actual imports work before I jump off a balcony
 ## 0.0.7
 Importing the package now works
 
-## 0.0.8 !NOT DONE!
+## 0.1.0 First full and stable release!
 Added uploading a file with options <br>
 Added proper exception and response handling <br>
-License file included with PyPi repository
+License file included with PyPi repository <br>
+Added function to delete content <br>
+Fixed a few broken functions
