@@ -29,3 +29,7 @@ Added proper exception and response handling <br>
 License file included with PyPi repository <br>
 Added function to delete content <br>
 Fixed a few broken functions
+
+## 0.2.0
+Importing the package broke, fixed it
+Imported exceptions in __init__.py

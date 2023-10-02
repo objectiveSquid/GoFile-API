@@ -18,7 +18,7 @@ with open("README.md", "r") as readme_file, open("CHANGELOG.md", "r") as changel
 
 setup(
     name="gofile-api",
-    version="0.1.0",
+    version="0.2.0",
     description="A python library for communicating with the Gofile API.",
     long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
