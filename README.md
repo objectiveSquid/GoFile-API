@@ -9,5 +9,5 @@ Create a guest account. <br>
 Get contents of a folder. <br>
 Create a folder. <br>
 Get the account information. <br>
-Set option for a content id. This can be a password, whether the content should be public, the content description, <br> and expiration date, tags, or  <br>
+Set option for a content id. This can be a password, whether the content should be public, the content description, <br> and expiration date, tags <br>
 Delete files and/or folders.
